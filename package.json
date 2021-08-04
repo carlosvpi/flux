@@ -1,0 +1,16 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "Fluxes",
+  "main": "index.js",
+  "repository": "https://github.com/carlosvpi/flux.git",
+  "author": "CarlosVazPI <carlos.vazpi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  },
+  "scripts": {
+    "publish": "npm publish",
+    "test": "mocha index.test.js"
+  }
+}
