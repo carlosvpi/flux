@@ -1,6 +1,6 @@
 {
   "name": "@carlosvpi/flux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reactive programming made easy",
   "main": "flux.js",
   "repository": "https://github.com/carlosvpi/flux.git",
