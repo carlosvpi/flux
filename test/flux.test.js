@@ -1,4 +1,4 @@
-const { Flux } = require('../lib/flux')
+const Flux = require('../lib/flux')
 const assert = require('assert').strict
 
 describe('Flux basics', () => {

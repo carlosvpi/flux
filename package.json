@@ -1,8 +1,8 @@
 {
   "name": "@carlosvpi/flux",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reactive programming made easy",
-  "main": "index.js",
+  "main": "flux.js",
   "repository": "https://github.com/carlosvpi/flux.git",
   "author": "CarlosVazPI <carlos.vazpi@gmail.com>",
   "license": "MIT",
@@ -10,6 +10,7 @@
     "mocha": "^9.0.3"
   },
   "scripts": {
-    "test": "mocha index.test.js"
+    "build": "browserify flux.js --standalone Flux > _temp.js && minify _temp.js > dist/flux.min.js && rm _temp.js",
+    "test": "mocha test/flux.test.js"
   }
 }
