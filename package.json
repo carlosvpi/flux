@@ -1,7 +1,7 @@
 {
-  "name": "flux",
-  "version": "1.0.0",
-  "description": "Fluxes",
+  "name": "@carlosvpi/flux",
+  "version": "0.0.0",
+  "description": "Reactive programming made easy",
   "main": "index.js",
   "repository": "https://github.com/carlosvpi/flux.git",
   "author": "CarlosVazPI <carlos.vazpi@gmail.com>",
@@ -10,7 +10,6 @@
     "mocha": "^9.0.3"
   },
   "scripts": {
-    "publish": "npm publish",
     "test": "mocha index.test.js"
   }
 }
